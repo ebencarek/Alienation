@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC032036187E432300126EAD /* ECASavedGameStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FC032035187E432300126EAD /* ECASavedGameStore.m */; };
+		FC04E32618676E54006ECF54 /* ECAGameSceneFive.m in Sources */ = {isa = PBXBuildFile; fileRef = FC04E32518676E54006ECF54 /* ECAGameSceneFive.m */; };
+		FC04E329186B9116006ECF54 /* ECAGameSceneSix.m in Sources */ = {isa = PBXBuildFile; fileRef = FC04E328186B9116006ECF54 /* ECAGameSceneSix.m */; };
+		FC077E691944F08B00260B76 /* ECAEndGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FC077E681944F08B00260B76 /* ECAEndGameScene.m */; };
+		FC20C420189366F500288588 /* ECAGameSceneEight.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20C41F189366F500288588 /* ECAGameSceneEight.m */; };
+		FC26C327186CBFBA00EA8ED8 /* ECASavedGame.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26C326186CBFB900EA8ED8 /* ECASavedGame.m */; };
+		FC2CBFE918AA936000F28C87 /* ECAGameSceneNine.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBFE818AA936000F28C87 /* ECAGameSceneNine.m */; };
+		FC3180D018241E49005AD7EC /* spaceship-3.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3180CF18241E49005AD7EC /* spaceship-3.png */; };
+		FC3F4854182F2A5A0080422E /* pause-button.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3F4853182F2A5A0080422E /* pause-button.png */; };
+		FC3F4856182F37B80080422E /* alien.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FC3F4855182F37B80080422E /* alien.atlas */; };
+		FC3F4859182F3A620080422E /* ECAGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4858182F3A620080422E /* ECAGameOverScene.m */; };
+		FC42B19918217CF000738094 /* ECASpaceship.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42B19818217CF000738094 /* ECASpaceship.m */; };
+		FC5C283B18245CAA00D4CAAA /* fire-button.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5C283A18245CAA00D4CAAA /* fire-button.png */; };
+		FC5C338C183F95E3006AE29A /* ECAGameSceneThree.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5C338B183F95E3006AE29A /* ECAGameSceneThree.m */; };
+		FC6D8E7218D86A6800F40348 /* squirrel-boss-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6D8E7118D86A6800F40348 /* squirrel-boss-1.png */; };
+		FC6D8E7B18D86BEE00F40348 /* ECASquirrelBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6D8E7A18D86BEE00F40348 /* ECASquirrelBoss.m */; };
+		FC702FA5184D8E590024968B /* SpaceshipDeath.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC702FA4184D8E590024968B /* SpaceshipDeath.sks */; };
+		FC792F13183474D800C6454D /* Stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC792F12183474D800C6454D /* Stars.sks */; };
+		FC79FC3D181ED2500008F17D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC79FC3C181ED2500008F17D /* Foundation.framework */; };
+		FC79FC3F181ED2500008F17D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC79FC3E181ED2500008F17D /* CoreGraphics.framework */; };
+		FC79FC41181ED2500008F17D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC79FC40181ED2500008F17D /* UIKit.framework */; };
+		FC79FC47181ED2500008F17D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC79FC45181ED2500008F17D /* InfoPlist.strings */; };
+		FC79FC49181ED2500008F17D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC79FC48181ED2500008F17D /* main.m */; };
+		FC79FC4D181ED2500008F17D /* ECAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC79FC4C181ED2500008F17D /* ECAAppDelegate.m */; };
+		FC79FC50181ED2500008F17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC79FC4E181ED2500008F17D /* Main.storyboard */; };
+		FC79FC53181ED2500008F17D /* ECAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC79FC52181ED2500008F17D /* ECAViewController.m */; };
+		FC79FC55181ED2500008F17D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC79FC54181ED2500008F17D /* Images.xcassets */; };
+		FC79FC5C181ED2500008F17D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC79FC5B181ED2500008F17D /* XCTest.framework */; };
+		FC79FC5D181ED2500008F17D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC79FC3C181ED2500008F17D /* Foundation.framework */; };
+		FC79FC5E181ED2500008F17D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC79FC40181ED2500008F17D /* UIKit.framework */; };
+		FC79FC66181ED2500008F17D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC79FC64181ED2500008F17D /* InfoPlist.strings */; };
+		FC79FC68181ED2500008F17D /* AlienationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC79FC67181ED2500008F17D /* AlienationTests.m */; };
+		FC79FC72181ED2930008F17D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC79FC71181ED2930008F17D /* SpriteKit.framework */; };
+		FC79FC75181ED7790008F17D /* ECAIntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FC79FC74181ED7790008F17D /* ECAIntroScene.m */; };
+		FC79FC78181F25ED0008F17D /* ECAGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FC79FC77181F25ED0008F17D /* ECAGameScene.m */; };
+		FC804EB118BAF65700F82B53 /* ECAGameSceneTen.m in Sources */ = {isa = PBXBuildFile; fileRef = FC804EB018BAF65700F82B53 /* ECAGameSceneTen.m */; };
+		FC8F1A53191D1C7500E628F9 /* one-shot-laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = FC8F1A52191D1C7500E628F9 /* one-shot-laser.caf */; };
+		FC8F1A56191D221500E628F9 /* alien-explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = FC8F1A54191D221500E628F9 /* alien-explosion.caf */; };
+		FC8F1A57191D221500E628F9 /* spaceship-explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = FC8F1A55191D221500E628F9 /* spaceship-explosion.caf */; };
+		FC9643A3184FC80600E0F9FC /* ECABlueAlien.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9643A2184FC80600E0F9FC /* ECABlueAlien.m */; };
+		FC99E2BE19C1E3C00021DFB4 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8536F7185533D6009AB930 /* iAd.framework */; };
+		FCA3DB8A1888A69200C66F18 /* ECAPowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA3DB891888A69200C66F18 /* ECAPowerUp.m */; };
+		FCA5884218244F0A00F07096 /* laser-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA5884118244F0A00F07096 /* laser-1.png */; };
+		FCA58845182453F000F07096 /* movement-button-left.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA58843182453F000F07096 /* movement-button-left.png */; };
+		FCA58846182453F000F07096 /* movement-button-right.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA58844182453F000F07096 /* movement-button-right.png */; };
+		FCA70EA51858DF120090BCE9 /* laser-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA70EA41858DF120090BCE9 /* laser-2.png */; };
+		FCB0A5EB18520D7D003D8F6E /* ECAGameSceneFour.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB0A5EA18520D7D003D8F6E /* ECAGameSceneFour.m */; };
+		FCB0A5ED18523BBF003D8F6E /* bluealien.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FCB0A5EC18523BBF003D8F6E /* bluealien.atlas */; };
+		FCBF4D3F1833DE2C0039632E /* AlienDeath.sks in Resources */ = {isa = PBXBuildFile; fileRef = FCBF4D3D1833DE2C0039632E /* AlienDeath.sks */; };
+		FCBF4D401833DE2C0039632E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBF4D3E1833DE2C0039632E /* spark.png */; };
+		FCBF4D43183424960039632E /* ECAGameSceneTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBF4D42183424960039632E /* ECAGameSceneTwo.m */; };
+		FCD35B501829788A0040C390 /* ECAAlien.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD35B4F1829788A0040C390 /* ECAAlien.m */; };
+		FCDB60C31884742B005D4E25 /* ECAGameSceneSeven.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDB60C21884742B005D4E25 /* ECAGameSceneSeven.m */; };
+		FCFEA818184E48B1001415A4 /* ECARedAlien.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA817184E48B1001415A4 /* ECARedAlien.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC79FC5F181ED2500008F17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC79FC31181ED2500008F17D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC79FC38181ED2500008F17D;
+			remoteInfo = Alienation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC032034187E432300126EAD /* ECASavedGameStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECASavedGameStore.h; sourceTree = "<group>"; };
+		FC032035187E432300126EAD /* ECASavedGameStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECASavedGameStore.m; sourceTree = "<group>"; };
+		FC04E32418676E54006ECF54 /* ECAGameSceneFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAGameSceneFive.h; sourceTree = "<group>"; };
+		FC04E32518676E54006ECF54 /* ECAGameSceneFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAGameSceneFive.m; sourceTree = "<group>"; };
+		FC04E327186B9116006ECF54 /* ECAGameSceneSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAGameSceneSix.h; sourceTree = "<group>"; };
+		FC04E328186B9116006ECF54 /* ECAGameSceneSix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAGameSceneSix.m; sourceTree = "<group>"; };
+		FC077E671944F08B00260B76 /* ECAEndGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAEndGameScene.h; sourceTree = "<group>"; };
+		FC077E681944F08B00260B76 /* ECAEndGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAEndGameScene.m; sourceTree = "<group>"; };
+		FC20C41E189366F500288588 /* ECAGameSceneEight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAGameSceneEight.h; sourceTree = "<group>"; };
+		FC20C41F189366F500288588 /* ECAGameSceneEight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAGameSceneEight.m; sourceTree = "<group>"; };
+		FC26C325186CBFB900EA8ED8 /* ECASavedGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECASavedGame.h; sourceTree = "<group>"; };
+		FC26C326186CBFB900EA8ED8 /* ECASavedGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECASavedGame.m; sourceTree = "<group>"; };
+		FC2CBFE718AA936000F28C87 /* ECAGameSceneNine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAGameSceneNine.h; sourceTree = "<group>"; };
+		FC2CBFE818AA936000F28C87 /* ECAGameSceneNine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAGameSceneNine.m; sourceTree = "<group>"; };
+		FC3180CF18241E49005AD7EC /* spaceship-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spaceship-3.png"; sourceTree = "<group>"; };
+		FC3F4853182F2A5A0080422E /* pause-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-button.png"; sourceTree = "<group>"; };
+		FC3F4855182F37B80080422E /* alien.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = alien.atlas; sourceTree = "<group>"; };
+		FC3F4857182F3A620080422E /* ECAGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAGameOverScene.h; sourceTree = "<group>"; };
+		FC3F4858182F3A620080422E /* ECAGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAGameOverScene.m; sourceTree = "<group>"; };
+		FC42B19718217CF000738094 /* ECASpaceship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECASpaceship.h; sourceTree = "<group>"; };
+		FC42B19818217CF000738094 /* ECASpaceship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECASpaceship.m; sourceTree = "<group>"; };
+		FC5C283A18245CAA00D4CAAA /* fire-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fire-button.png"; sourceTree = "<group>"; };
+		FC5C338A183F95E3006AE29A /* ECAGameSceneThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAGameSceneThree.h; sourceTree = "<group>"; };
+		FC5C338B183F95E3006AE29A /* ECAGameSceneThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAGameSceneThree.m; sourceTree = "<group>"; };
+		FC6D8E7118D86A6800F40348 /* squirrel-boss-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "squirrel-boss-1.png"; sourceTree = "<group>"; };
+		FC6D8E7918D86BEE00F40348 /* ECASquirrelBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECASquirrelBoss.h; sourceTree = "<group>"; };
+		FC6D8E7A18D86BEE00F40348 /* ECASquirrelBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECASquirrelBoss.m; sourceTree = "<group>"; };
+		FC702FA4184D8E590024968B /* SpaceshipDeath.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceshipDeath.sks; sourceTree = "<group>"; };
+		FC792F12183474D800C6454D /* Stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Stars.sks; sourceTree = "<group>"; };
+		FC79FC39181ED2500008F17D /* Alienation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alienation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC79FC3C181ED2500008F17D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC79FC3E181ED2500008F17D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC79FC40181ED2500008F17D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC79FC44181ED2500008F17D /* Alienation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alienation-Info.plist"; sourceTree = "<group>"; };
+		FC79FC46181ED2500008F17D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC79FC48181ED2500008F17D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC79FC4A181ED2500008F17D /* Alienation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alienation-Prefix.pch"; sourceTree = "<group>"; };
+		FC79FC4B181ED2500008F17D /* ECAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECAAppDelegate.h; sourceTree = "<group>"; };
+		FC79FC4C181ED2500008F17D /* ECAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECAAppDelegate.m; sourceTree = "<group>"; };
+		FC79FC4F181ED2500008F17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC79FC51181ED2500008F17D /* ECAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECAViewController.h; sourceTree = "<group>"; };
+		FC79FC52181ED2500008F17D /* ECAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECAViewController.m; sourceTree = "<group>"; };
+		FC79FC54181ED2500008F17D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC79FC5A181ED2500008F17D /* AlienationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlienationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC79FC5B181ED2500008F17D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC79FC63181ED2500008F17D /* AlienationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlienationTests-Info.plist"; sourceTree = "<group>"; };
+		FC79FC65181ED2500008F17D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC79FC67181ED2500008F17D /* AlienationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlienationTests.m; sourceTree = "<group>"; };
+		FC79FC71181ED2930008F17D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FC79FC73181ED7790008F17D /* ECAIntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAIntroScene.h; sourceTree = "<group>"; };
+		FC79FC74181ED7790008F17D /* ECAIntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAIntroScene.m; sourceTree = "<group>"; };
+		FC79FC76181F25ED0008F17D /* ECAGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAGameScene.h; sourceTree = "<group>"; };
+		FC79FC77181F25ED0008F17D /* ECAGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAGameScene.m; sourceTree = "<group>"; };
+		FC804EAF18BAF65700F82B53 /* ECAGameSceneTen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAGameSceneTen.h; sourceTree = "<group>"; };
+		FC804EB018BAF65700F82B53 /* ECAGameSceneTen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAGameSceneTen.m; sourceTree = "<group>"; };
+		FC8536F7185533D6009AB930 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FC8F1A52191D1C7500E628F9 /* one-shot-laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "one-shot-laser.caf"; sourceTree = "<group>"; };
+		FC8F1A54191D221500E628F9 /* alien-explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alien-explosion.caf"; sourceTree = "<group>"; };
+		FC8F1A55191D221500E628F9 /* spaceship-explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "spaceship-explosion.caf"; sourceTree = "<group>"; };
+		FC9643A1184FC80600E0F9FC /* ECABlueAlien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECABlueAlien.h; sourceTree = "<group>"; };
+		FC9643A2184FC80600E0F9FC /* ECABlueAlien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECABlueAlien.m; sourceTree = "<group>"; };
+		FCA3DB881888A69200C66F18 /* ECAPowerUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAPowerUp.h; sourceTree = "<group>"; };
+		FCA3DB891888A69200C66F18 /* ECAPowerUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAPowerUp.m; sourceTree = "<group>"; };
+		FCA5884118244F0A00F07096 /* laser-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "laser-1.png"; sourceTree = "<group>"; };
+		FCA58843182453F000F07096 /* movement-button-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movement-button-left.png"; sourceTree = "<group>"; };
+		FCA58844182453F000F07096 /* movement-button-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movement-button-right.png"; sourceTree = "<group>"; };
+		FCA70EA41858DF120090BCE9 /* laser-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "laser-2.png"; path = "../../Alienation Artwork/laser-2.png"; sourceTree = "<group>"; };
+		FCB0A5E918520D7D003D8F6E /* ECAGameSceneFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAGameSceneFour.h; sourceTree = "<group>"; };
+		FCB0A5EA18520D7D003D8F6E /* ECAGameSceneFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAGameSceneFour.m; sourceTree = "<group>"; };
+		FCB0A5EC18523BBF003D8F6E /* bluealien.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bluealien.atlas; sourceTree = "<group>"; };
+		FCB7EB74184514630084D067 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FCBF4D3D1833DE2C0039632E /* AlienDeath.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AlienDeath.sks; sourceTree = "<group>"; };
+		FCBF4D3E1833DE2C0039632E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		FCBF4D41183424960039632E /* ECAGameSceneTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAGameSceneTwo.h; sourceTree = "<group>"; };
+		FCBF4D42183424960039632E /* ECAGameSceneTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAGameSceneTwo.m; sourceTree = "<group>"; };
+		FCD35B4E1829788A0040C390 /* ECAAlien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAAlien.h; sourceTree = "<group>"; };
+		FCD35B4F1829788A0040C390 /* ECAAlien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAAlien.m; sourceTree = "<group>"; };
+		FCDB60C11884742B005D4E25 /* ECAGameSceneSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAGameSceneSeven.h; sourceTree = "<group>"; };
+		FCDB60C21884742B005D4E25 /* ECAGameSceneSeven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAGameSceneSeven.m; sourceTree = "<group>"; };
+		FCFEA816184E48B1001415A4 /* ECARedAlien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECARedAlien.h; sourceTree = "<group>"; };
+		FCFEA817184E48B1001415A4 /* ECARedAlien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECARedAlien.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC79FC36181ED2500008F17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC99E2BE19C1E3C00021DFB4 /* iAd.framework in Frameworks */,
+				FC79FC72181ED2930008F17D /* SpriteKit.framework in Frameworks */,
+				FC79FC3F181ED2500008F17D /* CoreGraphics.framework in Frameworks */,
+				FC79FC41181ED2500008F17D /* UIKit.framework in Frameworks */,
+				FC79FC3D181ED2500008F17D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC79FC57181ED2500008F17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC79FC5C181ED2500008F17D /* XCTest.framework in Frameworks */,
+				FC79FC5E181ED2500008F17D /* UIKit.framework in Frameworks */,
+				FC79FC5D181ED2500008F17D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC20C42118936BC000288588 /* Game Saving */ = {
+			isa = PBXGroup;
+			children = (
+				FC26C325186CBFB900EA8ED8 /* ECASavedGame.h */,
+				FC26C326186CBFB900EA8ED8 /* ECASavedGame.m */,
+				FC032034187E432300126EAD /* ECASavedGameStore.h */,
+				FC032035187E432300126EAD /* ECASavedGameStore.m */,
+			);
+			name = "Game Saving";
+			sourceTree = "<group>";
+		};
+		FC3F485A182F3AF00080422E /* Game Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FC79FC73181ED7790008F17D /* ECAIntroScene.h */,
+				FC79FC74181ED7790008F17D /* ECAIntroScene.m */,
+				FC792F111834737700C6454D /* Game Levels */,
+				FC3F4857182F3A620080422E /* ECAGameOverScene.h */,
+				FC3F4858182F3A620080422E /* ECAGameOverScene.m */,
+				FC077E671944F08B00260B76 /* ECAEndGameScene.h */,
+				FC077E681944F08B00260B76 /* ECAEndGameScene.m */,
+			);
+			name = "Game Scenes";
+			sourceTree = "<group>";
+		};
+		FC3F485B182F3B010080422E /* Game Objects */ = {
+			isa = PBXGroup;
+			children = (
+				FCD35B4E1829788A0040C390 /* ECAAlien.h */,
+				FCD35B4F1829788A0040C390 /* ECAAlien.m */,
+				FCFEA816184E48B1001415A4 /* ECARedAlien.h */,
+				FCFEA817184E48B1001415A4 /* ECARedAlien.m */,
+				FC9643A1184FC80600E0F9FC /* ECABlueAlien.h */,
+				FC9643A2184FC80600E0F9FC /* ECABlueAlien.m */,
+				FC42B19718217CF000738094 /* ECASpaceship.h */,
+				FC42B19818217CF000738094 /* ECASpaceship.m */,
+				FCA3DB881888A69200C66F18 /* ECAPowerUp.h */,
+				FCA3DB891888A69200C66F18 /* ECAPowerUp.m */,
+				FC6D8E7918D86BEE00F40348 /* ECASquirrelBoss.h */,
+				FC6D8E7A18D86BEE00F40348 /* ECASquirrelBoss.m */,
+			);
+			name = "Game Objects";
+			sourceTree = "<group>";
+		};
+		FC792F111834737700C6454D /* Game Levels */ = {
+			isa = PBXGroup;
+			children = (
+				FC79FC76181F25ED0008F17D /* ECAGameScene.h */,
+				FC79FC77181F25ED0008F17D /* ECAGameScene.m */,
+				FCBF4D41183424960039632E /* ECAGameSceneTwo.h */,
+				FCBF4D42183424960039632E /* ECAGameSceneTwo.m */,
+				FC5C338A183F95E3006AE29A /* ECAGameSceneThree.h */,
+				FC5C338B183F95E3006AE29A /* ECAGameSceneThree.m */,
+				FCB0A5E918520D7D003D8F6E /* ECAGameSceneFour.h */,
+				FCB0A5EA18520D7D003D8F6E /* ECAGameSceneFour.m */,
+				FC04E32418676E54006ECF54 /* ECAGameSceneFive.h */,
+				FC04E32518676E54006ECF54 /* ECAGameSceneFive.m */,
+				FC04E327186B9116006ECF54 /* ECAGameSceneSix.h */,
+				FC04E328186B9116006ECF54 /* ECAGameSceneSix.m */,
+				FCDB60C11884742B005D4E25 /* ECAGameSceneSeven.h */,
+				FCDB60C21884742B005D4E25 /* ECAGameSceneSeven.m */,
+				FC20C41E189366F500288588 /* ECAGameSceneEight.h */,
+				FC20C41F189366F500288588 /* ECAGameSceneEight.m */,
+				FC2CBFE718AA936000F28C87 /* ECAGameSceneNine.h */,
+				FC2CBFE818AA936000F28C87 /* ECAGameSceneNine.m */,
+				FC804EAF18BAF65700F82B53 /* ECAGameSceneTen.h */,
+				FC804EB018BAF65700F82B53 /* ECAGameSceneTen.m */,
+			);
+			name = "Game Levels";
+			sourceTree = "<group>";
+		};
+		FC79FC30181ED2500008F17D = {
+			isa = PBXGroup;
+			children = (
+				FC79FC42181ED2500008F17D /* Alienation */,
+				FC79FC61181ED2500008F17D /* AlienationTests */,
+				FC79FC3B181ED2500008F17D /* Frameworks */,
+				FC79FC3A181ED2500008F17D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC79FC3A181ED2500008F17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC79FC39181ED2500008F17D /* Alienation.app */,
+				FC79FC5A181ED2500008F17D /* AlienationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC79FC3B181ED2500008F17D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC8536F7185533D6009AB930 /* iAd.framework */,
+				FCB7EB74184514630084D067 /* CoreMotion.framework */,
+				FC79FC71181ED2930008F17D /* SpriteKit.framework */,
+				FC79FC3C181ED2500008F17D /* Foundation.framework */,
+				FC79FC3E181ED2500008F17D /* CoreGraphics.framework */,
+				FC79FC40181ED2500008F17D /* UIKit.framework */,
+				FC79FC5B181ED2500008F17D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC79FC42181ED2500008F17D /* Alienation */ = {
+			isa = PBXGroup;
+			children = (
+				FC79FC4B181ED2500008F17D /* ECAAppDelegate.h */,
+				FC79FC4C181ED2500008F17D /* ECAAppDelegate.m */,
+				FC79FC4E181ED2500008F17D /* Main.storyboard */,
+				FC79FC51181ED2500008F17D /* ECAViewController.h */,
+				FC79FC52181ED2500008F17D /* ECAViewController.m */,
+				FC3F485A182F3AF00080422E /* Game Scenes */,
+				FC3F485B182F3B010080422E /* Game Objects */,
+				FC20C42118936BC000288588 /* Game Saving */,
+				FC8F1A4D191D15B900E628F9 /* Sounds */,
+				FCA5884018244BFC00F07096 /* Images */,
+				FC79FC54181ED2500008F17D /* Images.xcassets */,
+				FC79FC43181ED2500008F17D /* Supporting Files */,
+			);
+			path = Alienation;
+			sourceTree = "<group>";
+		};
+		FC79FC43181ED2500008F17D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC79FC44181ED2500008F17D /* Alienation-Info.plist */,
+				FC79FC45181ED2500008F17D /* InfoPlist.strings */,
+				FC79FC48181ED2500008F17D /* main.m */,
+				FC79FC4A181ED2500008F17D /* Alienation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC79FC61181ED2500008F17D /* AlienationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC79FC67181ED2500008F17D /* AlienationTests.m */,
+				FC79FC62181ED2500008F17D /* Supporting Files */,
+			);
+			path = AlienationTests;
+			sourceTree = "<group>";
+		};
+		FC79FC62181ED2500008F17D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC79FC63181ED2500008F17D /* AlienationTests-Info.plist */,
+				FC79FC64181ED2500008F17D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC8F1A4D191D15B900E628F9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FC8F1A54191D221500E628F9 /* alien-explosion.caf */,
+				FC8F1A55191D221500E628F9 /* spaceship-explosion.caf */,
+				FC8F1A52191D1C7500E628F9 /* one-shot-laser.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		FCA5884018244BFC00F07096 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FC702FA4184D8E590024968B /* SpaceshipDeath.sks */,
+				FC792F12183474D800C6454D /* Stars.sks */,
+				FCBF4D3D1833DE2C0039632E /* AlienDeath.sks */,
+				FC6D8E7118D86A6800F40348 /* squirrel-boss-1.png */,
+				FCBF4D3E1833DE2C0039632E /* spark.png */,
+				FC3F4853182F2A5A0080422E /* pause-button.png */,
+				FC5C283A18245CAA00D4CAAA /* fire-button.png */,
+				FCA58843182453F000F07096 /* movement-button-left.png */,
+				FCA58844182453F000F07096 /* movement-button-right.png */,
+				FCA5884118244F0A00F07096 /* laser-1.png */,
+				FCA70EA41858DF120090BCE9 /* laser-2.png */,
+				FC3180CF18241E49005AD7EC /* spaceship-3.png */,
+				FCB0A5EC18523BBF003D8F6E /* bluealien.atlas */,
+				FC3F4855182F37B80080422E /* alien.atlas */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC79FC38181ED2500008F17D /* Alienation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC79FC6B181ED2500008F17D /* Build configuration list for PBXNativeTarget "Alienation" */;
+			buildPhases = (
+				FC79FC35181ED2500008F17D /* Sources */,
+				FC79FC36181ED2500008F17D /* Frameworks */,
+				FC79FC37181ED2500008F17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alienation;
+			productName = Alienation;
+			productReference = FC79FC39181ED2500008F17D /* Alienation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC79FC59181ED2500008F17D /* AlienationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC79FC6E181ED2500008F17D /* Build configuration list for PBXNativeTarget "AlienationTests" */;
+			buildPhases = (
+				FC79FC56181ED2500008F17D /* Sources */,
+				FC79FC57181ED2500008F17D /* Frameworks */,
+				FC79FC58181ED2500008F17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC79FC60181ED2500008F17D /* PBXTargetDependency */,
+			);
+			name = AlienationTests;
+			productName = AlienationTests;
+			productReference = FC79FC5A181ED2500008F17D /* AlienationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC79FC31181ED2500008F17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ECA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Eben Carek";
+				TargetAttributes = {
+					FC79FC38181ED2500008F17D = {
+						DevelopmentTeam = 7CFL4Y3LSQ;
+					};
+					FC79FC59181ED2500008F17D = {
+						TestTargetID = FC79FC38181ED2500008F17D;
+					};
+				};
+			};
+			buildConfigurationList = FC79FC34181ED2500008F17D /* Build configuration list for PBXProject "Alienation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC79FC30181ED2500008F17D;
+			productRefGroup = FC79FC3A181ED2500008F17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC79FC38181ED2500008F17D /* Alienation */,
+				FC79FC59181ED2500008F17D /* AlienationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC79FC37181ED2500008F17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB0A5ED18523BBF003D8F6E /* bluealien.atlas in Resources */,
+				FC8F1A56191D221500E628F9 /* alien-explosion.caf in Resources */,
+				FC8F1A53191D1C7500E628F9 /* one-shot-laser.caf in Resources */,
+				FC3F4854182F2A5A0080422E /* pause-button.png in Resources */,
+				FCBF4D401833DE2C0039632E /* spark.png in Resources */,
+				FC5C283B18245CAA00D4CAAA /* fire-button.png in Resources */,
+				FCA70EA51858DF120090BCE9 /* laser-2.png in Resources */,
+				FCBF4D3F1833DE2C0039632E /* AlienDeath.sks in Resources */,
+				FCA5884218244F0A00F07096 /* laser-1.png in Resources */,
+				FC8F1A57191D221500E628F9 /* spaceship-explosion.caf in Resources */,
+				FC79FC55181ED2500008F17D /* Images.xcassets in Resources */,
+				FC3180D018241E49005AD7EC /* spaceship-3.png in Resources */,
+				FC79FC47181ED2500008F17D /* InfoPlist.strings in Resources */,
+				FC792F13183474D800C6454D /* Stars.sks in Resources */,
+				FC702FA5184D8E590024968B /* SpaceshipDeath.sks in Resources */,
+				FCA58846182453F000F07096 /* movement-button-right.png in Resources */,
+				FC79FC50181ED2500008F17D /* Main.storyboard in Resources */,
+				FCA58845182453F000F07096 /* movement-button-left.png in Resources */,
+				FC3F4856182F37B80080422E /* alien.atlas in Resources */,
+				FC6D8E7218D86A6800F40348 /* squirrel-boss-1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC79FC58181ED2500008F17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC79FC66181ED2500008F17D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC79FC35181ED2500008F17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC20C420189366F500288588 /* ECAGameSceneEight.m in Sources */,
+				FCFEA818184E48B1001415A4 /* ECARedAlien.m in Sources */,
+				FC804EB118BAF65700F82B53 /* ECAGameSceneTen.m in Sources */,
+				FC2CBFE918AA936000F28C87 /* ECAGameSceneNine.m in Sources */,
+				FCD35B501829788A0040C390 /* ECAAlien.m in Sources */,
+				FC42B19918217CF000738094 /* ECASpaceship.m in Sources */,
+				FC6D8E7B18D86BEE00F40348 /* ECASquirrelBoss.m in Sources */,
+				FCB0A5EB18520D7D003D8F6E /* ECAGameSceneFour.m in Sources */,
+				FC3F4859182F3A620080422E /* ECAGameOverScene.m in Sources */,
+				FC5C338C183F95E3006AE29A /* ECAGameSceneThree.m in Sources */,
+				FC79FC4D181ED2500008F17D /* ECAAppDelegate.m in Sources */,
+				FCBF4D43183424960039632E /* ECAGameSceneTwo.m in Sources */,
+				FC077E691944F08B00260B76 /* ECAEndGameScene.m in Sources */,
+				FCDB60C31884742B005D4E25 /* ECAGameSceneSeven.m in Sources */,
+				FC032036187E432300126EAD /* ECASavedGameStore.m in Sources */,
+				FC04E32618676E54006ECF54 /* ECAGameSceneFive.m in Sources */,
+				FC9643A3184FC80600E0F9FC /* ECABlueAlien.m in Sources */,
+				FC79FC75181ED7790008F17D /* ECAIntroScene.m in Sources */,
+				FC79FC78181F25ED0008F17D /* ECAGameScene.m in Sources */,
+				FCA3DB8A1888A69200C66F18 /* ECAPowerUp.m in Sources */,
+				FC79FC53181ED2500008F17D /* ECAViewController.m in Sources */,
+				FC04E329186B9116006ECF54 /* ECAGameSceneSix.m in Sources */,
+				FC79FC49181ED2500008F17D /* main.m in Sources */,
+				FC26C327186CBFBA00EA8ED8 /* ECASavedGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC79FC56181ED2500008F17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC79FC68181ED2500008F17D /* AlienationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC79FC60181ED2500008F17D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC79FC38181ED2500008F17D /* Alienation */;
+			targetProxy = FC79FC5F181ED2500008F17D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC79FC45181ED2500008F17D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC79FC46181ED2500008F17D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC79FC4E181ED2500008F17D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC79FC4F181ED2500008F17D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC79FC64181ED2500008F17D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC79FC65181ED2500008F17D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC79FC69181ED2500008F17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+			};
+			name = Debug;
+		};
+		FC79FC6A181ED2500008F17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC79FC6C181ED2500008F17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alienation/Alienation-Prefix.pch";
+				INFOPLIST_FILE = "Alienation/Alienation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC79FC6D181ED2500008F17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alienation/Alienation-Prefix.pch";
+				INFOPLIST_FILE = "Alienation/Alienation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC79FC6F181ED2500008F17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alienation.app/Alienation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alienation/Alienation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AlienationTests/AlienationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC79FC70181ED2500008F17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alienation.app/Alienation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alienation/Alienation-Prefix.pch";
+				INFOPLIST_FILE = "AlienationTests/AlienationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC79FC34181ED2500008F17D /* Build configuration list for PBXProject "Alienation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC79FC69181ED2500008F17D /* Debug */,
+				FC79FC6A181ED2500008F17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC79FC6B181ED2500008F17D /* Build configuration list for PBXNativeTarget "Alienation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC79FC6C181ED2500008F17D /* Debug */,
+				FC79FC6D181ED2500008F17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC79FC6E181ED2500008F17D /* Build configuration list for PBXNativeTarget "AlienationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC79FC6F181ED2500008F17D /* Debug */,
+				FC79FC70181ED2500008F17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC79FC31181ED2500008F17D /* Project object */;
+}
