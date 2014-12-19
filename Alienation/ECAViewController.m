@@ -8,9 +8,13 @@
 
 #import "ECAViewController.h"
 #import "ECAIntroScene.h"
+#import "ECAAppDelegate.h"
+#import "ECAGameOverScene.h"
 #import <SpriteKit/SpriteKit.h>
 
 @interface ECAViewController ()
+
+//@property (strong, nonatomic) ECAGameOverScene *gameOverScene;
 
 @end
 
@@ -31,11 +35,17 @@
 {
     [super viewWillAppear:animated];
     
-    ECAIntroScene *introScene = [[ECAIntroScene alloc] initWithSize:self.view.frame.size];
-    
     SKView *spriteView = (SKView *)self.view;
     
-    [spriteView presentScene:introScene];
+    if (![(ECAAppDelegate *)[[UIApplication sharedApplication] delegate] gameOverScene])
+    {
+        ECAIntroScene *introScene = [[ECAIntroScene alloc] initWithSize:self.view.frame.size];
+        [spriteView presentScene:introScene];
+    }
+    else
+    {
+        [spriteView presentScene:[(ECAAppDelegate *)[[UIApplication sharedApplication] delegate] gameOverScene]];
+    }
 }
 
 - (BOOL)prefersStatusBarHidden

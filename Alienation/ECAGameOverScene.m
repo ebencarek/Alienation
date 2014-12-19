@@ -79,6 +79,8 @@
     {
         [self.view addSubview:self.adBanner];
     }
+    
+    [(ECAAppDelegate *)[[UIApplication sharedApplication] delegate] setGameOverScene:self];
 }
 
 - (void)createSceneContents
@@ -149,6 +151,8 @@
 {
     self.adBanner.delegate = nil;
     [self.adBanner removeFromSuperview];
+    
+    [(ECAAppDelegate *)[[UIApplication sharedApplication] delegate] setGameOverScene:nil];
 }
 
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner

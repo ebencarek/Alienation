@@ -22,6 +22,7 @@
     // Override point for customization after application launch.
     
     self.adBanner = [[ADBannerView alloc] initWithAdType:ADAdTypeBanner];
+    self.gameOverScene = nil;
     
     return YES;
 }
