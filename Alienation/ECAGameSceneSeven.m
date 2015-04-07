@@ -57,19 +57,19 @@
     
     CGMutablePathRef path1 = CGPathCreateMutable();
     CGPathMoveToPoint(path1, NULL, alien1.position.x, alien1.position.y);
-    CGPathAddCurveToPoint(path1, NULL, 0, self.size.height / 1.35, self.size.width, self.size.height / 3.2, skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
+    CGPathAddCurveToPoint(path1, NULL, 0, (CGFloat) (self.size.height / 1.35), self.size.width, (CGFloat) (self.size.height / 3.2), skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
     
     CGMutablePathRef path2 = CGPathCreateMutable();
     CGPathMoveToPoint(path2, NULL, alien1.position.x, alien1.position.y);
-    CGPathAddCurveToPoint(path2, NULL, self.size.width, self.size.height / 1.7, 0, self.size.height / 4.1, skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
+    CGPathAddCurveToPoint(path2, NULL, self.size.width, (CGFloat) (self.size.height / 1.7), 0, (CGFloat) (self.size.height / 4.1), skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
     
     CGMutablePathRef path3 = CGPathCreateMutable();
     CGPathMoveToPoint(path3, NULL, alien2.position.x, alien2.position.y);
-    CGPathAddCurveToPoint(path3, NULL, 0, self.size.height / 1.35, self.size.width, self.size.height / 3.2, skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
+    CGPathAddCurveToPoint(path3, NULL, 0, (CGFloat) (self.size.height / 1.35), self.size.width, (CGFloat) (self.size.height / 3.2), skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
     
     CGMutablePathRef path4 = CGPathCreateMutable();
     CGPathMoveToPoint(path4, NULL, alien2.position.x, alien2.position.y);
-    CGPathAddCurveToPoint(path4, NULL, self.size.width, self.size.height / 1.7, 0, self.size.height / 4.1, skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
+    CGPathAddCurveToPoint(path4, NULL, self.size.width, (CGFloat) (self.size.height / 1.7), 0, (CGFloat) (self.size.height / 4.1), skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
     
     NSArray *possibleMovements1 = @[
                                     [SKAction followPath:path1 asOffset:NO orientToPath:NO duration:5.2],
@@ -88,10 +88,10 @@
     SKAction *animationAction = [SKAction repeatActionForever:[self animateRedAlien]];
     
     [alien1 runAction:animationAction withKey:@"animate"];
-    [alien1 runAction:[possibleMovements1 objectAtIndex:(rand() % 4)] withKey:@"move"];
+    [alien1 runAction:possibleMovements1[(NSUInteger) (rand() % 4)] withKey:@"move"];
     
     [alien2 runAction:animationAction withKey:@"animate"];
-    [alien2 runAction:[possibleMovements2 objectAtIndex:(rand() % 4)] withKey:@"move"];
+    [alien2 runAction:possibleMovements2[(NSUInteger) (rand() % 4)] withKey:@"move"];
     
     CGPathRelease(path1);
     CGPathRelease(path2);
@@ -107,11 +107,11 @@
     
     CGMutablePathRef path1 = CGPathCreateMutable();
     CGPathMoveToPoint(path1, NULL, alien.position.x, alien.position.y);
-    CGPathAddCurveToPoint(path1, NULL, 0, self.size.height / 1.35, self.size.width, self.size.height / 3.2, skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
+    CGPathAddCurveToPoint(path1, NULL, 0, (CGFloat) (self.size.height / 1.35), self.size.width, (CGFloat) (self.size.height / 3.2), skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
     
     CGMutablePathRef path2 = CGPathCreateMutable();
     CGPathMoveToPoint(path2, NULL, alien.position.x, alien.position.y);
-    CGPathAddCurveToPoint(path2, NULL, self.size.width, self.size.height / 1.7, 0, self.size.height / 4.1, skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
+    CGPathAddCurveToPoint(path2, NULL, self.size.width, (CGFloat) (self.size.height / 1.7), 0, (CGFloat) (self.size.height / 4.1), skRand(self.spaceship.size.width / 2, self.size.width - self.spaceship.size.width / 2), 0);
     
     NSArray *possibleMovements = @[
                                    [SKAction followPath:path1 asOffset:NO orientToPath:NO duration:4.6],
@@ -123,7 +123,7 @@
     SKAction *animationAction = [SKAction repeatActionForever:[self animateBlueAlien]];
     
     [alien runAction:animationAction withKey:@"animate"];
-    [alien runAction:[possibleMovements objectAtIndex:(rand() % 4)] withKey:@"move"];
+    [alien runAction:possibleMovements[(NSUInteger) (rand() % 4)] withKey:@"move"];
     
     CGPathRelease(path1);
     CGPathRelease(path2);

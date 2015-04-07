@@ -50,7 +50,7 @@ static ECASpaceship *spaceship = nil;
 {
     if (!spaceship)
     {
-        spaceship = [[super allocWithZone:nil] init];
+        spaceship = (ECASpaceship *) [[super allocWithZone:nil] init];
     }
     
     return spaceship;

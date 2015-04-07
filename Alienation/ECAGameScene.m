@@ -90,7 +90,7 @@
     self.aliensKilled = 0;
     self.spaceship.lasersOnScreen = 0;
     
-    self.spaceship.position = CGPointMake(self.size.width / 2, self.size.height / 7.5);
+    self.spaceship.position = CGPointMake(((CGFloat) self.size.width / 2), (CGFloat) (self.size.height / 7.5));
     
     // Begin the onslaught of alien scum
     
@@ -113,7 +113,7 @@
     self.pauseButton = [SKSpriteNode spriteNodeWithImageNamed:@"pause-button"];
     self.fireButton = [SKSpriteNode spriteNodeWithImageNamed:@"fire-button"];
     
-    NSArray *buttons = [NSArray arrayWithObjects:self.leftButton, self.rightButton, self.pauseButton, self.fireButton, nil];
+    NSArray *buttons = @[self.leftButton, self.rightButton, self.pauseButton, self.fireButton];
     
     for (SKSpriteNode *button in buttons)
     {
@@ -121,19 +121,19 @@
         button.zPosition = 2;
     }
     
-    self.leftButton.position = CGPointMake(self.size.width / 10, self.size.height / 13.1);
+    self.leftButton.position = CGPointMake(((CGFloat) self.size.width / 10), (CGFloat) (self.size.height / 13.1));
     self.leftButton.name = @"leftButton";
     self.leftButton.zPosition = 2;
     self.leftButton.xScale = 0.85;
     self.leftButton.yScale = 0.85;
     
-    self.rightButton.position = CGPointMake(self.size.width / 3, self.size.height / 13.1);
+    self.rightButton.position = CGPointMake(((CGFloat) self.size.width / 3), (CGFloat) (self.size.height / 13.1));
     self.rightButton.name = @"rightButton";
     self.rightButton.zPosition = 2;
     self.rightButton.xScale = 0.85;
     self.rightButton.yScale = 0.85;
     
-    self.fireButton.position = CGPointMake(self.size.width - (self.size.width / 10), self.size.height / 13.1);
+    self.fireButton.position = CGPointMake(self.size.width - (self.size.width / 10), (CGFloat) (self.size.height / 13.1));
     self.fireButton.name = @"fireButton";
     self.fireButton.zPosition = 2;
     self.fireButton.xScale = 0.75;
@@ -279,17 +279,17 @@
     {
         NSLog(@"unpaused the view");
     }
-    
-    if (self.backgroundPauseCheck == NO && self.gameplayActive == YES)
+
+    if (!self.backgroundPauseCheck && self.gameplayActive)
     {
         NSLog(@"about to add pause menu");
-        
+
         [self addChild:self.resumeButton];
         [self addChild:self.quitButton];
         [self addChild:self.blackShade];
-        
+
         NSLog(@"added pause menu");
-        
+
         self.paused = YES;
         self.backgroundPauseCheck = YES;
     }
@@ -427,7 +427,7 @@
             }
         }
         
-        if (self.gameplayActive == NO)
+        if (!self.gameplayActive)
         {
             if ([button isEqual:self.tryAgainYes])
             {
@@ -439,7 +439,7 @@
                 
                 [self.spaceship setLasersOnScreen:0];
                 
-                self.spaceship.position = CGPointMake(self.size.width / 2, self.size.height / 9.5);
+                self.spaceship.position = CGPointMake((CGFloat) (self.size.width / 2), (CGFloat) (self.size.height / 9.5));
                 [self addChild:self.spaceship];
                 
                 if (self.level != 10)
@@ -483,7 +483,7 @@
         
         if ([button isEqual:self.pauseButton])
         {
-            if (![self isPaused] && self.gameplayActive == YES)
+            if (![self isPaused] && self.gameplayActive)
             {
                 [self addChild:self.resumeButton];
                 [self addChild:self.quitButton];
@@ -672,7 +672,7 @@
             [laser removeAllActions];
             [laser removeFromParent];
         }
-        else if (alien)
+        else
         {
             [alien removeAllActions];
             [alien removeFromParent];

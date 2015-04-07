@@ -58,7 +58,7 @@
 
 - (void)addBoss
 {
-    self.squirrelBoss = [[ECASquirrelBoss alloc] initWithPosition:CGPointMake(self.size.width / 2, self.size.height + 46.5)];
+    self.squirrelBoss = [[ECASquirrelBoss alloc] initWithPosition:CGPointMake(self.size.width / 2, (CGFloat) (self.size.height + 46.5))];
     
     //NSLog(@"%f",self.squirrelBoss.size.height / 2);
     
@@ -104,7 +104,7 @@
         
         CGFloat dx = (self.size.width / 2) > self.squirrelBoss.position.x ? (self.size.width / 2) - self.squirrelBoss.position.x : self.squirrelBoss.position.x - (self.size.width / 2);
         CGFloat dy = self.squirrelBoss.position.y - (self.size.height / 2);
-        CGFloat distance = sqrt((dx * dx) + (dy * dy));
+        CGFloat distance = (CGFloat) sqrt((dx * dx) + (dy * dy));
         CGFloat speed = 200;
         
         [self.squirrelBoss runAction:[SKAction group:@[

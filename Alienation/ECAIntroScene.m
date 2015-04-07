@@ -247,8 +247,8 @@
         SKTransition *fade = [SKTransition fadeWithDuration:0.5];
         
         [[ECASpaceship sharedSpaceship] setLives:savedGame.lives];
-        
-        [self.view presentScene:[levelContainer objectAtIndex:0] transition:fade];
+
+        [self.view presentScene:levelContainer[0] transition:fade];
     }
 }
 

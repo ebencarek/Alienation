@@ -36,7 +36,7 @@
     if (self)
     {
         [self setCurrentScore:[aDecoder decodeIntForKey:@"currentScore"]];
-        [self setCurrentLevel:[aDecoder decodeIntegerForKey:@"currentLevel"]];
+        [self setCurrentLevel:(NSUInteger) [aDecoder decodeIntegerForKey:@"currentLevel"]];
         [self setLives:[aDecoder decodeIntegerForKey:@"lives"]];
     }
     

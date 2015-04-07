@@ -16,7 +16,7 @@ static ECASavedGameStore *gameStore = nil;
 {
     if (!gameStore)
     {
-        gameStore = [[super allocWithZone:nil] init];
+        gameStore = (ECASavedGameStore *) [[super allocWithZone:nil] init];
     }
     
     return gameStore;
@@ -90,7 +90,7 @@ static ECASavedGameStore *gameStore = nil;
 {
     NSArray *documentDirectories = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     
-    NSString *documentDirectory = [documentDirectories objectAtIndex:0];
+    NSString *documentDirectory = documentDirectories[0];
     
     return [documentDirectory stringByAppendingPathComponent:@"game.archive"];
 }

@@ -34,7 +34,7 @@ static inline NSArray *ECALoadRedFramesFromAtlas(SKTextureAtlas *atlas)
     
     for (int i = 0; i < atlas.textureNames.count; i++)
     {
-        [textures addObject:[atlas textureNamed:[atlas.textureNames objectAtIndex:i]]];
+        [textures addObject:[atlas textureNamed:atlas.textureNames[i]]];
     }
     
     NSLog(@"%@", textures);

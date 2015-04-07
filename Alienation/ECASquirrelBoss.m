@@ -90,9 +90,9 @@
                                                   ]];
     
     SKAction *shake = [SKAction sequence:@[
-                                           [SKAction rotateByAngle:M_PI / 12 duration:0.2],
-                                           [SKAction rotateByAngle:-(M_PI / 6) duration:0.4],
-                                           [SKAction rotateByAngle:M_PI / 12 duration:0.2]
+            [SKAction rotateByAngle:(CGFloat) (M_PI / 12) duration:0.2],
+            [SKAction rotateByAngle:(CGFloat) -(M_PI / 6) duration:0.4],
+            [SKAction rotateByAngle:(CGFloat) (M_PI / 12) duration:0.2]
                                            ]];
     
     SKAction *moveUp = [SKAction moveToY:self.scene.size.height - self.size.height duration:1.6];
